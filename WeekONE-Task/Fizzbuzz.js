@@ -24,4 +24,3 @@ const Fizzbuzz = ()=>{
 
 Fizzbuzz()
 
-module.exports = {Fizzbuzz}

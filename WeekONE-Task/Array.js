@@ -8,16 +8,20 @@
 const algorithmsSentence = 'I love algorithms but i think the ones here are too simple'
 
 
-const algorithmsArray = [algorithmsSentence]
+const displayArray =()=>{
+  const algorithmsArray = [algorithmsSentence]
 
-const algorithmsItems = algorithmsArray.map((items) => items.split(' '))
+  const algorithmsItems = algorithmsArray.map((items) => items.split(' '))
 
-console.log(algorithmsItems)
+  console.log(algorithmsItems)
+}
 
-
-
-
-
+displayArray()
 
 
-  module.exports = {algorithmsItems}
+
+
+
+
+
+  

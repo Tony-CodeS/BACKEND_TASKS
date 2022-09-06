@@ -2,7 +2,7 @@
 //and prints all the possible prime numbers within that number
 
 
-function isPrime(num) {
+const isPrime =(num) => {
     for ( var i = 2; i < num; i++ ) {
         if ( num % i === 0 ) {
             return false;
@@ -11,7 +11,7 @@ function isPrime(num) {
     return true;
 }
 
-function display(n) {
+const display =(n) => {
     var arr = [2];
     for ( var i = 3; i < n; i+=2 ) {
         if ( isPrime(i) ) {
@@ -25,4 +25,4 @@ display(100);
 
 
 
-exports.display= display
+
