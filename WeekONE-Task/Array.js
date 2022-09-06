@@ -9,9 +9,12 @@ const algorithmsSentence = 'I love algorithms but i think the ones here are too 
 
 
 const displayArray =()=>{
-  const algorithmsArray = [algorithmsSentence]
+  const algorithmsArray = []
 
-  const algorithmsItems = algorithmsArray.map((items) => items.split(' '))
+  algorithmsArray.push(algorithmsSentence)
+  const algorithmsItems = algorithmsSentence.split(' ')
+
+  // const algorithmsItems = algorithmsArray.map((items) => items.split(' '))
 
   console.log(algorithmsItems)
 }
