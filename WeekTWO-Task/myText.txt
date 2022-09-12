@@ -1,0 +1,9 @@
+The main reason for using lorem ipsum text is that
+it keeps people from focusing on the actual text.
+When someone creates a template and asks for feedback on it, 
+they don't want the people reviewing it to get distracted by what the text says.
+Instead of focusing on the layout of the text, people might read the words to look for typos or sing along to the song lyrics.
+Additionally, lorem ipsum closely resembles actual text. 
+Copying and pasting the same few words would result in an uneven distribution of letters.
+ With lorem ipsum text, you can focus on how the font and page layout looks with copy that's almost fully realistic.
+

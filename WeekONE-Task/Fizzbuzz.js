@@ -24,3 +24,12 @@ const Fizzbuzz = ()=>{
 
 Fizzbuzz()
 
+//another method
+
+const fixxBuxx =()=>{
+    for(i=0; i<=100; i++){
+        console.log((i%3? '': 'fizz') + (i%5? '': 'fizz') || i)
+    }
+}
+
+fixxBuxx()

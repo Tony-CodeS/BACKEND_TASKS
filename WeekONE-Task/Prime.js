@@ -24,5 +24,20 @@ const display =(n) => {
 display(100);
 
 
+///sexond attempt
+
+const printPrimeNumbers =(num)=>{
+    let primes = []
+    for(let n = 3; n<num; n+=2){
+        if (primes.every((prime)=>{return n% prime !==0})){
+            primes.push(n)
+        }
+    }
+    primes.unshift(2)
+    console.log(primes)
+}
+
+printPrimeNumbers(100)
+
 
 
